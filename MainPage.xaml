@@ -35,6 +35,14 @@
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Center" />
 
+            <Button
+                x:Name="DecBtn"
+                Text="Click me down"
+                Clicked="OnDecClicked"
+                HorizontalOptions="Center"
+                />
+
+
         </VerticalStackLayout>
     </ScrollView>
 
